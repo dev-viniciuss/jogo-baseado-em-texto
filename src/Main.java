@@ -27,7 +27,14 @@ public class Main {
         System.out.println("\nDescrição de cenario: Você está na instituição medica deitado na cama de um quarto, seus pais estão ao seu lado\n\nAções:\n\n1/Levantar da cama\n2/Interagir com seus pais\n3/Fingir que ainda está dormindo");
         int acao = input.nextInt();
         Acao_1(acao);
+       
+
+        System.out.println("\nObjetivo: Você têm de sair da instituição, sem que seus pais ou os funcionarios da instituição te descubram");
+        System.out.println("O doutor chama seus pais para conversar fora do seu quarto, o que você faz?\n1 - Se esconde de baixo da cama\n2 - Tenta entrar no tubulo de ventilação no teto de seu quarto\n3 - Espera seus pais voltarem");
+
+        
     }
+         
     static void Acao_1(int acao) {
     	if (acao == 1) {
         	System.out.println("Você levanta da cama");
@@ -42,5 +49,6 @@ public class Main {
         	System.out.println("Selecione uma das ações: 1/2/3");
 
     	}
+    	
     }
 }
