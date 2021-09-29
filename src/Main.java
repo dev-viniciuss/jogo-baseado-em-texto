@@ -53,10 +53,10 @@ public class Main {
                     default:
                         System.out.println("Opção invalida");
 
-                        System.out.println(" entrando no Instituto centenas de guardas começam a persegui-los, enquanto vocês tentam alcançar os galpões onde ficam os Sintéticos");
-                        System.out.println("Lutando bravamente contra todos os soldados vocês alcaçam o galpão dos Sintéticos");
-                }
 
+                }
+                System.out.println(" entrando no Instituto centenas de guardas começam a persegui-los, enquanto vocês tentam alcançar os galpões onde ficam os Sintéticos");
+                System.out.println("Lutando bravamente contra todos os soldados vocês alcaçam o galpão dos Sintéticos");
         }
 
     }
